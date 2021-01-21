@@ -63,7 +63,7 @@ const Provider = ({ ...props }: Props) => {
       return providedTheme;
     } else {
       const theme = (colorScheme === 'dark'
-        ? DarkTheme
+        ? DefaultTheme
         : DefaultTheme) as ReactNativePaper.Theme;
 
       return {
