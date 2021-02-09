@@ -5,7 +5,6 @@ import { Provider as SettingsProvider, Settings } from './settings';
 import MaterialCommunityIcon from '../components/MaterialCommunityIcon';
 import PortalHost from '../components/Portal/PortalHost';
 import DefaultTheme from '../styles/DefaultTheme';
-import DarkTheme from '../styles/DarkTheme';
 
 type Props = {
   children: React.ReactNode;
